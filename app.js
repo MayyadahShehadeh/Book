@@ -2,7 +2,7 @@ alert('Welcome to My Fav Book Page');
 
 var userAge = prompt('Enter Your Age :');
 if (userAge <= 10) {
-  alert('sorry you are under age');
+  alert('sorry you are under the age');
   document.write('<h3>' + ' sorry read another book ' + '</h3>');
   document.write('<img src="https://acegif.com/wp-content/gifs/book-93.gif">');
 
