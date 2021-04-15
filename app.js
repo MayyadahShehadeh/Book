@@ -11,5 +11,21 @@ if (userAge <= 10) {
   document.write('<h3>' + 'enjoy reading the Book ' + '</h3>');
 
   document.write('<img src= "https://media1.giphy.com/media/gLukNCxcQ1dBcRnf3y/giphy.gif">');
+}
 
+var yourBook = prompt('what book do you want to read of the Secret Books Collection?');
+while (yourBook !== 'the magic' && yourBook !== 'hero') {
+  yourBook = prompt('Please enter the name the magic or hero');
+}
+var userChoose;
+
+if (yourBook == 'the magic') {
+  userChoose = '<img src="https://images-na.ssl-images-amazon.com/images/I/5115jhMmGrL._SX314_BO1,204,203,200_.jpg">';
+} else if (yourBook === 'hero') {
+  userChoose = '<img src="https://www.thesecret.tv/wp-content/uploads/2015/05/Hero-Book.png">';
+}
+var imagesNumber= prompt('How many image do you want?');
+
+for(var i=0 ; i < imagesNumber; i++){
+  document.write(userChoose);
 }
