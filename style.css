@@ -10,13 +10,16 @@ body{
 
 }
 
-nav ul li{
+nav ul li {
   border: ridge;
    border-color: #91091e;
    background-color: #f8a488;
   display:inline;
   margin: 10px;
 padding: 10px;
+}
+nav{
+  text-align: center;
 }
 main{
   background-color: #c8c6a7;
