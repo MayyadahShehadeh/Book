@@ -15,7 +15,7 @@ if (userAge <= 10) {
 
 var yourBook = prompt('what book do you want to read of the Secret Books Collection?');
 while (yourBook !== 'the magic' && yourBook !== 'hero') {
-  yourBook = prompt('Please enter the name the magic or hero');
+  yourBook = prompt('Please enter the name \'the magic\' or \'hero\'');
 }
 var userChoose;
 
