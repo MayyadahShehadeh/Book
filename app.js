@@ -13,12 +13,20 @@ if (userAge <= 10) {
   document.write('<img src= "https://media1.giphy.com/media/gLukNCxcQ1dBcRnf3y/giphy.gif">');
 }
 
-var yourBook = prompt('what book do you want to read of the Secret Books Collection?');
+var yourBook;
+var x = function (){
+
+yourBook = prompt('what book do you want to read of the Secret Books Collection?');
 while (yourBook !== 'the magic' && yourBook !== 'hero') {
   yourBook = prompt('Please enter the name \'the magic\' or \'hero\'');
 }
-var userChoose;
+}
 
+x();
+
+
+var userChoose;
+var y= function(){
 if (yourBook == 'the magic') {
   userChoose = '<img src="https://images-na.ssl-images-amazon.com/images/I/5115jhMmGrL._SX314_BO1,204,203,200_.jpg">';
 } else if (yourBook === 'hero') {
@@ -29,3 +37,5 @@ var imagesNumber= prompt('How many image do you want?');
 for(var i=0 ; i < imagesNumber; i++){
   document.write(userChoose);
 }
+}
+y();
