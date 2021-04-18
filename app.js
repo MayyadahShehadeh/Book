@@ -1,6 +1,9 @@
+
+var userAge
+var z = function(){
 alert('Welcome to My Fav Book Page');
 
-var userAge = prompt('Enter Your Age :');
+userAge = prompt('Enter Your Age :');
 if (userAge <= 10) {
   alert('sorry you are under the age');
   document.write('<h3>' + ' sorry read another book ' + '</h3>');
@@ -12,7 +15,8 @@ if (userAge <= 10) {
 
   document.write('<img src= "https://media1.giphy.com/media/gLukNCxcQ1dBcRnf3y/giphy.gif">');
 }
-
+}
+z();
 var yourBook;
 var x = function (){
 
